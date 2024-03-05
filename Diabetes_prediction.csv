@@ -1,0 +1,21 @@
+EmployeeName,Patient_id,gender,D.O.B,hypertension,heart_disease,smoking_history,bmi,HbA1c_level,blood_glucose_level,diabetes,,,,,
+NATHANIEL FORD,PT101,Female,05-11-1992,0,1,never,25.19,6.6,140,0,,,,Patient_id,smoking_history
+GARY JIMENEZ,PT102,Female,11-11-1992,0,0,No Info,27.32,6.6,80,0,,,,PT101,never
+ALBERT PARDINI,PT103,Male,13-11-1992,0,0,never,27.32,5.7,158,0,,,,PT102,No Info
+CHRISTOPHER CHONG,PT104,Female,05-12-1992,0,0,current,23.45,5,155,0,,,,PT103,never
+PATRICK GARDNER,PT105,Male,03-01-1989,1,1,current,20.14,4.8,155,0,,,,PT104,current
+DAVID SULLIVAN,PT106,Female,05-01-1989,0,0,never,27.32,6.6,85,0,,EmployeeName,bmi,PT105,current
+ALSON LEE,PT107,Female,23-01-1989,0,0,never,19.31,6.5,200,1,,MARTY ROSS,27.32,PT106,never
+DAVID KUSHNER,PT108,Female,05-02-1989,0,0,No Info,23.86,5.7,85,0,,DAVID SULLIVAN,,PT107,never
+MICHAEL MORRIS,PT109,Male,21-02-1989,0,0,never,33.64,4.8,145,0,,,,PT108,No Info
+JOANNE HAYES-WHITE,PT110,Female,09-03-1989,0,0,never,27.32,5,100,0,,,,PT109,never
+ARTHUR KENNEY,PT111,Female,19-03-1989,0,0,never,27.32,6.1,85,0,,,,PT110,never
+PATRICIA JACKSON,PT112,Female,01-04-1989,0,0,former,54.7,6,100,0,,,,PT111,never
+EDWARD HARRINGTON,PT113,Female,14-04-1989,0,0,former,36.05,5,130,0,,,,PT112,former
+JOHN MARTIN,PT114,Female,21-04-1989,0,0,never,25.69,5.8,200,0,,,,PT113,former
+DAVID FRANKLIN,PT115,Female,26-04-1989,0,0,No Info,27.32,5,160,0,,,,PT114,never
+RICHARD CORRIEA,PT116,Male,27-04-1989,0,0,No Info,27.32,6.6,126,0,,,,PT115,No Info
+AMY HART,PT117,Male,29-04-1989,0,0,never,30.36,6.1,200,0,,,,PT116,No Info
+SEBASTIAN WONG,PT118,Female,30-04-1989,0,0,never,24.48,5.7,158,0,,,,PT117,never
+MARTY ROSS,PT119,Female,10-05-1989,0,0,No Info,27.32,5.7,80,0,,,,PT118,never
+,,,,,,,,,,,,,,PT119,No Info
