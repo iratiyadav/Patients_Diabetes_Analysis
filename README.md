@@ -9,3 +9,19 @@ This repository contains a SQL database project focused on diabetes prediction. 
  4. Data Manipulation
  5. Instructions
  6. Contributing
+
+## Database Structure
+
+The database, named pysliq, includes a table named diabetes_pred with the following columns:
+1.'emp_name' (VARCHAR)
+2.'patient_id' (VARCHAR, unique)
+3.'gender' (VARCHAR)
+4.dob (DATE)
+Hyper_tension (INT)
+Heart_disese (INT)
+smoking_history (VARCHAR)
+bmi (INT)
+HbA1c_level (INT)
+blood_level (INT)
+diabetes (INT)
+age (INT)
